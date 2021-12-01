@@ -3,7 +3,7 @@
    vars:
     x: 23
     my_num: 45.67
-    my_name: Divine
+    my_name: Divine Chamoh
     my_b: YES
 
    gather_facts: false
