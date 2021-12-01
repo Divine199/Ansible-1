@@ -33,7 +33,7 @@ resource "aws_instance" "ubuntu-hosts" {
   }
 }
 
-resource "aws_instance" "rhel_hosts" {
+resource "aws_instance" "rhel-hosts" {
   ami = data.aws_ami.rhel.id
   instance_type = var.my_instance_type
   user_data = file("${path.module}/create_ansible_user.sh")
